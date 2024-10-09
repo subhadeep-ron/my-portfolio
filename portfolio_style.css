@@ -1,0 +1,123 @@
+body {
+    font-family: cursive;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer {
+    background: #333;
+    color: #fff;
+    /*display: flex;
+    justify-content: center;*/
+}
+
+.mail-section{
+    display: flex;
+    justify-content: center;
+}
+#about-section{
+    display: flex;
+}
+
+.mail{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-logo {
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Adjust size as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+td, th{
+    padding: 7px;
+}
+
+table{
+    width: 1000px;
+}
+
+ul{
+    list-style-type: square;
+}
+h1{
+    color: antiquewhite;
+}
+
+#contact{
+    display: none;
+}
