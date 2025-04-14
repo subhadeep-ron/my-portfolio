@@ -17,8 +17,6 @@ header {
 footer {
     background: #333;
     color: #fff;
-    /*display: flex;
-    justify-content: center;*/
 }
 
 .mail-section{
@@ -34,10 +32,9 @@ footer {
     padding-right: 20px;
 }
 
-.header-logo {
-    width: 400px; /* Adjust size as needed */
-    height: 300px; /* Adjust size as needed */
-    /*display: none;*/
+.head-logo {
+    width: 400px; 
+    height: 300px;
 }
 
 nav {
