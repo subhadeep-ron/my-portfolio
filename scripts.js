@@ -9,13 +9,13 @@ document.getElementById('cv_show').onclick = function()
     if(bt_stat == 0)
     {
         document.getElementById('my-cv').style = "display: block";
-        document.getElementById('cv_show').innerHTML = "Click Here to Hide The Resume";
+        document.getElementById('cv_show').innerHTML = "Click Again to Hide";
         bt_stat = 1;
     }
     else
     {
         document.getElementById('my-cv').style = "display: none";
-        document.getElementById('cv_show').innerHTML = "Click Here to view The Resume";
+        document.getElementById('cv_show').innerHTML = "Click Here to View";
         bt_stat = 0;
     }
 };
