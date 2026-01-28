@@ -14,16 +14,23 @@
         </header>
         
         <nav id="navbar">
-            <ul>
-                <button><a href="#about">About Me</a></button>
-                <button><a href="#education">Education</a></button>
-                <button><a href="#work-experience">Work Experiences</a></button>
-                <button><a href="#achievements">Achievements</a></button>
-                <button><a href="#projects">Projects</a></button>
-                <button><a href="#communication">Communication</a></button>
-                <button><a href="#cv-section">My Resume</a></button>
-                <button><a href="thoughts.html" target="_blank">My Thoughts</a></button>
-            </ul>
+            <div class="nav-container">
+                <div class="nav-logo">Subhadeep Das</div>
+
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#work-experience">Work</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#communication">Communication</a></li>
+                    <li><a href="#cv-section">Resume</a></li>
+                </ul>
+
+                <div class="menu-toggle" id="menu-toggle">
+                    ☰
+                </div>
+            </div>
         </nav>
 
         <section id="about">
@@ -36,8 +43,8 @@
                 <p>
                     I am currently pursuing my research journey under the guidance of 
                     <a href="https://www.tcgcrest.org/people/shion-samadder-chaudhury/" target="_blank">Dr. Shion Samadder Chaudhury</a> and <a href="https://www.bits-pilani.ac.in/goa/diptendu-chatterjee/" target="_blank">Dr. Diptendu Chatterjee</a>. 
-                    Being engaged in first-year coursework, I am exploring a wide range of subjects including Expander Graphs, Cryptography, Graph Algorithms, Data Structures and Algorithms, Discrete Mathematics, Research Methodology, Research Ethics, Optimization Techniques, Approximation Algorithms, Probabilistic Methods, and more. 
-                    Moreover, I have a keen interest in Complexity Theory and Theoretical Computer Science.
+                    In my first-year coursework, I have explored a wide range of subjects including Expander Graphs, Cryptography, Graph Algorithms, Data Structures and Algorithms, Discrete Mathematics, Research Methodology, Research Ethics, Optimization Techniques, Approximation Algorithms, Probabilistic Methods, and more. 
+                    Currently I am working in the field of Approximation Algorithms and Parameterized Algorithms. Also I have a keen interest in Complexity Theory and other Theoretical Computer Science topics.
                 </p>
                 <p>
                     I have a basic knowledge in Computer Algorithms and Data Structures. Also I am efficient
@@ -45,7 +52,7 @@
                     development, API and Product Testing. 
                 </p>
                 <p>
-                    Besides all of this, I have been working among the youths being attached with an organization named ABVYM (Akhil Bharat Vivekananda Yuva Mahamandal) for more than 11 years. The organization actually works among the youths with the character-building and life-making ideas proposed by Swami Vivekananda.
+                    Besides all of this, I have been working among the youths being attached with an organization named ABVYM (Akhil Bharat Vivekananda Yuva Mahamandal) for more than 12 years. The organization actually works among the youths with the character-building and life-making ideas proposed by Swami Vivekananda. I am honoured to be a part of this movement.
                 </p>
                 </div>
                 <img src="ron3.png" alt="Ron" class="head-logo">
@@ -84,44 +91,30 @@
             </table>
         </section>
 
-        <section id="work-experience">
-            <h2>Work Experiences</h2>
-            <p>Completed a 6-month internship as <b>Software Quality Assurance Tester</b> in an Ed-Tech Company
-                    named <b>Cerebry</b>
-            </p>
-            <p>
-                    Worked as <b>Quality Assurance Executive</b> in <b>Cerebry</b>
-            </p>
-            <p>
-                    Worked as <b>Quality Assurance Assistant Testing Lead</b> in <b>Cerebry</b>
-            </p>
-            <p>
-                    Worked as <b>Assistant Product QA Lead</b> in <b>Cerebry</b>
-            </p>
-            <p>
-                    Currently doing an internship on <b>TCGmcube Certification Program</b> in <b>TCG Digital</b>
-            </p>
-        </section>
-
         <section id="achievements">
             <h2>My Achievements</h2>
-            <p>
-                    Qualified <b>GATE (Mathematics)</b> organized by IIT Kharagpur at March 2022
-            </p>
-            <p>
-                    Qualified for <b>Lectureship/ Assistant Professor in NET (Mathematics)</b> 
-                    Issued by Joint CSIR-UGC at October 2022
-            </p>
-            <p>
-                    Secured <b>AIR 328</b> in <b>GATE (Mathematics)</b> organized by IIT Kanpur at March 2023
-            </p>
-            <p>
-                    Qualified 25th <b>SET (State Eligibility Test) in Mathematics</b> Issued by West Bengal College Service Commission at March 2024
-            </p>
-            <p>
-                    Secured <b>AIR 265</b> in <b>GATE (Mathematics)</b> organized by IISC Bangalore at April 2024
-            </p>
+            <ul class="achievement-list">
+                <li>
+                    Qualified <b>GATE (Mathematics)</b> organized by IIT Kharagpur — <span>March 2022</span>.
+                </li>
+                <li>
+                    Qualified for <b>Lectureship / Assistant Professor in NET (Mathematics)</b>, issued by Joint CSIR-UGC — <span>October 2022</span>.
+                </li>
+                <li>
+                    Secured <b>AIR 328</b> in <b>GATE (Mathematics)</b>, organized by IIT Kanpur — <span>March 2023</span>.
+                </li>
+                <li>
+                    Qualified 25th <b>SET (State Eligibility Test) in Mathematics</b>, issued by West Bengal College Service Commission — <span>March 2024</span>.
+                </li>
+                <li>
+                    Secured <b>AIR 265</b> in <b>GATE (Mathematics)</b>, organized by IISc Bangalore — <span>April 2024</span>.
+                </li>
+                <li>
+                    Secured <b>Second Position</b> in a talk on <b>Young Researchers' Forum</b> in Ajit Diwan Memorial Workshop on Geometry, Graphs and Combinatorics - <span> January 2026</span>
+                </li>
+            </ul>
         </section>
+
 
         <section id="projects">
             <h2>Projects</h2>
@@ -144,6 +137,27 @@
             </div>
         </section>
 
+        <section id="work-experience">
+            <h2>Work Experiences</h2>
+            <ul class="work-list">
+                <li>
+                    Completed a 6-month internship as <b>Software Quality Assurance Tester</b> in an Ed-Tech company named <b>Cerebry</b>.
+                </li>
+                <li>
+                    Worked as <b>Quality Assurance Executive</b> in <b>Cerebry</b>.
+                </li>
+                <li>
+                    Worked as <b>Quality Assurance Assistant Testing Lead</b> in <b>Cerebry</b>.
+                </li>
+                <li>
+                    Worked as <b>Assistant Product QA Lead</b> in <b>Cerebry</b>.
+                </li>
+                <li>
+                    Currently doing an internship on <b>TCGmcube Certification Program</b> in <b>TCG Digital</b>.
+                </li>
+            </ul>
+        </section>
+
         <section id="communication">
             <h2>Communication</h2>
                 <div class="comm-logo">
@@ -156,15 +170,20 @@
         <section id="cv-section">
             <h2>My Resume</h2>
             <button id="cv_show">Click Here to View</button>
-            <object
-                type="application/pdf"
-                data="CV_SubhadeepDas.pdf"
-                width="1000"
-                height="1300"
-                id="my-cv"
-            ></object>
-        </section>
+            <div id="cv-container">
+                <iframe 
+                    src="CV_SubhadeepDas.pdf"
+                    title="My Resume"
+                    loading="lazy">
+                </iframe>
 
+                <div class="cv-actions">
+                    <a href="CV_SubhadeepDas.pdf" target="_blank">Open Fullscreen</a>
+                    <a href="CV_SubhadeepDas.pdf" download>Download PDF</a>
+                </div>
+            </div>
+        </section>
+        <!--
         <section id="contact">
             <h2>Contact Me</h2>
             <form id="contact-form">
@@ -173,7 +192,7 @@
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Send</button>
             </form>
-        </section>
+        </section>-->
         <footer>
             <div class="mail-section">
                 <div class="mail"><a href="mailto:subhadeep.das.169@tcgcrest.org">subhadeep.das.169@tcgcrest.org</a></div>
@@ -185,4 +204,3 @@
         <script src="scripts.js"></script>
     </body>
     </html>
-
